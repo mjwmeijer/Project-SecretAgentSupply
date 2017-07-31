@@ -46,7 +46,6 @@ justify-content: center;
 color:white;
 font-weight:bold;
 font-family:Helvetica;
-position:relative;
 }
 
 .announcement h4 {
@@ -55,8 +54,7 @@ position:relative;
 
 .announcement h1 {
   padding-bottom:2rem;
-  padding-left:3rem;
-}
+  }
 
 .products1 {background-color:firebrick;
 display:flex;
@@ -188,13 +186,15 @@ align-items:center;
   .pen { width:90%;}
   .merchandise2 { justify-content: center;}
   .background1{ height:15rem;}
-  .announcement {top:10rem;}
+  .announcement {position:relative;
+    top:10rem;
+  width:100%;}
   .announcement h4 {font-size:0.77rem;
   padding-top:1rem;
 padding-left:2rem;}
   .announcement h1 {font-size:1rem;
   padding-left:2rem;
-width:100%;}
+}
 .copyright { text-align:center;}
 .place_time {display:block;}
 .locations, .hours {width:90%;
@@ -208,12 +208,15 @@ margin-left:5%;}
   .merchandise2 { justify-content:space-between;}
   .background1 {height:25rem;}
   .background1 {top:9rem;}
+  .announcement {position:relative;
+    top:9rem;
+  width:20rem;}
   .announcement h4 {font-size:1rem;
   padding-top:2rem;
 padding-left:3rem;}
   .announcement h1 {font-size:2rem;
   padding-left:3rem;
-width:20rem;}
+}
 .copyright { text-align:left;}
 .place_time {display:flex;}
 }
